@@ -1,6 +1,6 @@
 {
   "name": "tel-format",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small jQuery function to automatically format telephone numbers as a user types in a phone number in a tel input field.",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,9 @@
     "formatting",
     "jquery",
     "form",
-    "number"
+    "number",
+    "module",
+    "browserify"
   ],
   "author": "Ryan Burgess <rburgess@evernote.com> (http://everernote.com/)",
   "license": "MIT",
