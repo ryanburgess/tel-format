@@ -16,6 +16,7 @@ telFormat();
 ```
 
 ## Release History
+* 1.0.2: Add Gruntfile.
 * 1.0.1: Fix delete issues.
 * 1.0.0: Initial release.
 

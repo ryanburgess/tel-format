@@ -1,6 +1,6 @@
 {
   "name": "tel-format",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small jQuery function to automatically format telephone numbers as a user types in a phone number in a tel input field.",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ryanburgess/tel-format.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jsonlint": "^1.0.4",
+    "grunt-newer": "^1.1.0",
+    "jshint-stylish": "^1.0.0"
   },
   "keywords": [
     "tel",
