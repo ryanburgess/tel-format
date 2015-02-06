@@ -10,7 +10,7 @@ module.exports = function(){
   for (var i = 0; i < input.length; i++){
     var type = input[i].type;
     if(type === 'tel'){
-      input[i].addEventListener('keydown', telFormat)
+      input[i].addEventListener('keydown', telFormat);
     }
   }
 
