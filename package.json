@@ -1,7 +1,7 @@
 {
   "name": "tel-format",
-  "version": "1.0.2",
-  "description": "A small jQuery function to automatically format telephone numbers as a user types in a phone number in a tel input field.",
+  "version": "1.0.3",
+  "description": "A small JavaScript function to automatically format telephone numbers as a user types in a phone number in a tel input field.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,7 +27,7 @@
     "input",
     "format",
     "formatting",
-    "jquery",
+    "JavaScript",
     "form",
     "number",
     "module",
