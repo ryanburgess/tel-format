@@ -20,6 +20,7 @@ telFormat();
 ```
 
 ## Release History
+* 1.0.5: Add screenshot.
 * 1.0.4: Add demo link.
 * 1.0.3: Update index.js.
 * 1.0.2: Add Gruntfile.
