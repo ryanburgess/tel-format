@@ -1,6 +1,10 @@
 # Tel Format
 A small JavaScript function to automatically format telephone numbers as a user types in a phone number in a tel input field.
 
+![tel format example](https://raw.github.com/ryanburgess/tel-format/master/screenshot.png)
+
+[DEMO](http://htmlpreview.github.io/?https://github.com/ryanburgess/tel-format/master/demo.html)
+
 ## Install
 
 ```js
@@ -16,7 +20,8 @@ telFormat();
 ```
 
 ## Release History
-* 1.0.3: Update index.js
+* 1.0.4: Add demo link.
+* 1.0.3: Update index.js.
 * 1.0.2: Add Gruntfile.
 * 1.0.1: Fix delete issues.
 * 1.0.0: Initial release.

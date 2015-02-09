@@ -1,6 +1,6 @@
 {
   "name": "tel-format",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A small JavaScript function to automatically format telephone numbers as a user types in a phone number in a tel input field.",
   "main": "index.js",
   "scripts": {
