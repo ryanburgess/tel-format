@@ -3,7 +3,7 @@ A small JavaScript function to automatically format telephone numbers as a user 
 
 ![tel format example](https://raw.github.com/ryanburgess/tel-format/master/screenshot.png)
 
-[DEMO](http://htmlpreview.github.io/?https://github.com/ryanburgess/tel-format/master/demo.html)
+[DEMO](http://htmlpreview.github.io/?https://github.com/ryanburgess/tel-format/master/example.html)
 
 ## Install
 
@@ -20,6 +20,7 @@ telFormat();
 ```
 
 ## Release History
+* 1.0.6: Update example.
 * 1.0.5: Add screenshot.
 * 1.0.4: Add demo link.
 * 1.0.3: Update index.js.
