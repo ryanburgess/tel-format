@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         indent: 2,
         quotmark: 'single',
         unused: false,
-        ignores: ['node_modules/**/*.js'],
+        ignores: ['node_modules/**/*.js', 'js/tel-format.min.js'],
         globals: {
           jQuery: true
         },
@@ -22,6 +22,18 @@ module.exports = function(grunt) {
     jsonlint: {
       sample: {
         src: [ '**/*.json' ]
+      }
+    },
+    uglify: {
+      options: {
+        compress: {
+          drop_console: true
+        }
+      },
+      dist: {
+        files:{
+          'js/tel-format.min.js': ['js/tel-format.js']
+        },
       }
     },
     watch: {
@@ -41,6 +53,7 @@ module.exports = function(grunt) {
       }
     }
   });
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-jsonlint');

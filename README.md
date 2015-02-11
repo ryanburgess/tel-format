@@ -13,13 +13,21 @@ npm install tel-format --save-dev
 
 ## Use
 
+### Module
+
 ```js
 var telFormat = require('tel-format');
 
 telFormat();
 ```
 
+### Browser
+```js
+<script src="js/tel-format.min.js" type="text/javascript"></script>
+```
+
 ## Release History
+* 1.0.7: Add browser JavaScript file.
 * 1.0.6: Update example.
 * 1.0.5: Add screenshot.
 * 1.0.4: Add demo link.
